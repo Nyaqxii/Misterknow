@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBlue"
+    tools:context="net.misterknow.misterknow.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MISTERKNOW.NET"
+        android:textSize="40px"
+        android:textColor="@color/colorWhite"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintVertical_bias="0.604" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="115dp"
+        android:layout_height="116dp"
+        android:background="@android:color/background_light"
+        app:srcCompat="@drawable/home_pic_for_line"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="166dp" />
+
+</android.support.constraint.ConstraintLayout>
